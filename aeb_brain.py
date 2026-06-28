@@ -1,6 +1,6 @@
 import numpy as np
 
-# 1. Our LiDAR data (Notice the tight walls on the left: indices 1 and 2 are small)
+# 1. Our LiDAR data 
 raw_sensor_data = [10.0, 2.0, 1.5, 10.0, 10.0, 10.0, 5.0, 6.0]
 scan_matrix = np.array(raw_sensor_data)
 
